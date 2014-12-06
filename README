@@ -1,0 +1,25 @@
+miga -- Breadcrumb name of the working directory
+
+Description
+-----------
+
+Prints the last part of PWD.
+
+Examples
+--------
+
+	$ cd foo/bar/baz
+	$ miga
+	baz
+	$ cd ..
+	$ miga
+	bar
+
+Installation
+------------
+
+Grab `miga.c`, then run:
+
+	$ make miga
+
+Copy the executable anywhere in your path.
